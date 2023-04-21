@@ -1,0 +1,37 @@
+.nav{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height: 74vh;
+    overflow-y: scroll;
+    background-color: #EBECF1;
+    /* border: 2px black solid; */
+    margin-left: 4px;
+    width: 40%;
+    border-radius: 5px;
+    
+}
+button{
+    margin: 10px 10px;
+    cursor: pointer;
+    background: #6155B4;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+button:hover{
+    background-color: #7b6fe0;
+}
+.nav img{
+    width: 300px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease-in-out;
+}
+.nav img:hover{
+    transform: scale(1.05);
+}
