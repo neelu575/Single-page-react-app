@@ -23,8 +23,14 @@ This is the main section of the app. It displays data from an XML database.
 NavSection.jsx
 This is the nav section of the app. It displays data from the Google News API.
 
-blogs_data.xml
+blog_posts.xml
 This is the XML database used by the app.
+
+pages/
+This directory contains three pages for the individual blog posts.
+
+blogposts/
+This directory contains three components for the each blog post.
 
 package.json
 This file contains information about the project, including its dependencies and scripts.
