@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useState, useEffect } from 'react'
-const API_URL = `https://newsapi.org/v2/top-headlines?country=us&pageSize=6&apiKey=f99ae8fde0d443df898e2883ab7cf3dc`;
+const API_URL = `https://newsapi.org/v2/top-headlines?country=us&pageSize=6&apiKey=`;
 
 const ApiResponseAJAX = () => {
     const [news, setNews] = useState([])
@@ -17,7 +17,7 @@ const ApiResponseAJAX = () => {
         }
         catch (e) { console.log("attempt to fetch news api failed", e) }
     }
-    // setInterval(getAPI, 60000);
+     setInterval(getAPI, 60000);
     if (news) {
         return (
             <div className="newsapi">
