@@ -30,7 +30,7 @@ pages/
 This directory contains three pages for the individual blog posts.
 
 blogposts/
-This directory contains three components for the each blog post.
+This directory contains three components for the each blog posts.
 
 package.json
 This file contains information about the project, including its dependencies and scripts.
