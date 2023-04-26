@@ -31,7 +31,6 @@ This directory contains three pages for the individual blog posts.
 
 blogposts/
 This directory contains three components for the each blog posts.
-and about screencast video, when your click on the screencast link, you cant see the video directly. You should click on the "view raw", that video will download into your system.
 
 package.json
 This file contains information about the project, including its dependencies and scripts.
